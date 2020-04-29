@@ -1,0 +1,56 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #121212; 
+    /* #121212; */
+}
+
+.selectColor {
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 900px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+select {
+    color: white;
+    background-color: #121212;
+    font-family: cursive;
+    border: none;
+    border-bottom: 3px solid #7e8ce0;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: waitforme 0s 3s forwards;
+}
+
+@keyframes waitforme {
+    to {
+        opacity: 1;
+    }
+}
+
+.covid {
+    font-family: 'Lobster', cursive;;
+    margin-top: 10px;
+    font-size: 3rem;
+    color: white;
+    border-bottom: 5px solid #7e8ce0;
+}
